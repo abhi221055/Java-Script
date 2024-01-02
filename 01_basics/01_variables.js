@@ -9,6 +9,6 @@ accPass = "2121"
 accountCity = "Jaipur"
 console.log(accountId);
 /*  ab var ko use nahi karte hai ab sirf let use karte hai beacuse of scope issue
-console.table se tabular form me data aa jata hai. */
+console.table se tabular form me data aa jata hai. agar hum sirf variable define kar k khali chod dete hai to use ye undefined consider karega.as accstate */
 console.table([accountId,accEmail,accPass,accountCity,accState])
 
