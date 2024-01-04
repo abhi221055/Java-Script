@@ -6,9 +6,10 @@
  let name = "abhilash"
  let age = 23
  let isloggedin = true
+ let duration = null
  console.log(typeof(age))
  console.log(typeof(null)) 
-
+// console.table([name,age,isloggedin,duration])
 // there are 7 data types in javascript
 // Number is ki max value hai => 2 to power 53
 // Big Int
