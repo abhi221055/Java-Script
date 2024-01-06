@@ -41,5 +41,6 @@ console.log(JsUser.greeting())  //greeting lagate hai to ( ) in braces me.
 JsUser.greetingTwo = function(){
     console.log(`Hello JS User,${this.email}`)
 }
+//jab same object ko reference karna hai to this lagta hai as above
 console.log(JsUser.greeting());
 console.log(JsUser.greetingTwo());
